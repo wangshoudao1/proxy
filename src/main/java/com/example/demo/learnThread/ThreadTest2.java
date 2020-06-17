@@ -10,7 +10,7 @@ public class ThreadTest2 implements Runnable {
 
     @Override
     public void run() {
-//赛道
+        //赛道
         for (int step = 1; step <= 101; step++) {
             if (Thread.currentThread().getName().equals("兔子") && step  == 50) {
                 try {
